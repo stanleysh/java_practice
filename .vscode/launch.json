@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Fundamentals",
+            "request": "launch",
+            "mainClass": "Fundamentals.Fundamentals",
+            "projectName": "javaPractice_57d3c490"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld.HelloWorld",
+            "projectName": "javaPractice_57d3c490"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "javaPractice_57d3c490"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HelloWorld",
+            "request": "launch",
+            "mainClass": "Sandbox.HelloWorld",
+            "projectName": "javaPractice_57d3c490"
+        }
+    ]
+}

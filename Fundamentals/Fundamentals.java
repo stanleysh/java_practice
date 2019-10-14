@@ -1,12 +1,22 @@
+import java.util.Scanner;
+
 public class Fundamentals {
     public static void main(String[] args) {
-        int x = 15;
-        int y = 10;
-        if (x > 10) {
-            System.out.println("The number is greater than 10");
-        }; 
-        if (y < 15) {
-            System.out.println("The number is less than 15");
-        }
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Please input a number: ");
+
+        int number = input.nextInt();
+        
+        if (number > 10) {
+            String result = String.format("%d is greater than 10", number);
+            System.out.println(result);
+        } else if (number < 10) {
+            String result = String.format("%d is less than 10", number);
+            System.out.println(result);
+        } else {
+            System.out.println("10 is equal to 10");
+        };
+        input.close();
     }
 }
